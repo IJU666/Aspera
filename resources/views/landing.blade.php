@@ -27,7 +27,7 @@
 <div class="col-lg-4 mt-5 mx-auto">
     <p><small>Pilih Klasifikasi Laporan</small></p>
     <form action="" method="post">
-        <div class="row">
+        <div class="row col-lg-12 mx-auto">
         <div class="form-check d-inline col-lg-4 p-2 rounded-2" style="background-color: #F5F5F5;">
             <input class="form-check-input mx-auto" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
             <label class="form-check-label ms-1" for="exampleRadios1">
