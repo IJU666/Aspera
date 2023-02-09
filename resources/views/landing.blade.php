@@ -28,20 +28,30 @@
     <p><small>Pilih Klasifikasi Laporan</small></p>
     <form action="" method="post">
         <div class="row col-lg-12 mx-auto">
-        <div class="form-check d-inline col-lg-4 p-2 rounded-2" style="background-color: #F5F5F5;">
+        <div class="form-check d-inline col-lg-5 p-2 rounded-2" style="background-color: #F5F5F5;">
             <input class="form-check-input mx-auto" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
             <label class="form-check-label ms-1" for="exampleRadios1">
               Pengaduan
             </label>
           </div>
-          <div class="form-check d-inline col-lg-4 ms-2 p-2 justify-content-center rounded-2" style="background-color: #F5F5F5;">
+          <div class="form-check d-inline col-lg-5 ms-2 p-2 justify-content-center rounded-2" style="background-color: #F5F5F5;">
             <input class="form-check-input mx-auto" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
             <label class="form-check-label ms-1" for="exampleRadios2">
               Aspirasi
             </label>
           </div>
         </div>
+        </div>
+        <div class="rounded-3 col-lg-12 mt-5 py-5" style="background-color: #F5F5F5;">
+            <div class="form-floating col-lg-10 mx-auto mb-3">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 200px;"></textarea>
+                <label for="floatingTextarea" class="fw-semibold text-secondary">Ketik isi laporan anda*</label>
+                <div class="form-floating col-lg-5 mt-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 150px;"></textarea>
+                    <label for="floatingTextarea" class="fw-semibold text-secondary">Masukan alamat lengkap kejadian*</label>
+                  </div>
+              </div>
+        </div>
     </form>
-</div>
 </div>
 @endsection
