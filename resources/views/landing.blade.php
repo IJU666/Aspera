@@ -68,5 +68,6 @@
     <h4 class="fw-semibold text-center text-light">Jumlah pengaduan saat ini</h4>
     <h1 class="text-center text-light">100</h1>
 </div>
+@include('layout.footer')
 @endsection
 
