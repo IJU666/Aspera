@@ -54,7 +54,7 @@
       </div>
     </div>
   </div>
-          <a href="" class="btn btn-primary fw-semibold">Daftar</a>
+          <a href="/daftar" class="btn btn-primary fw-semibold">Daftar</a>
         </ul>
       </div>
     </div>
