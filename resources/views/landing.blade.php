@@ -52,7 +52,8 @@
                     <label for="floatingTextarea" class=" ms-2 fw-semibold text-secondary">Masukan alamat lengkap kejadian*</label>
                   </div>
                   <div class="mt-3 col-lg-6">
-                    <input type="date" name="tglpengaduan" id="" class="form-control" required>
+                    <label for="tanggal" class="form-text mt-2 text-secondary">Upload lampiran</label>
+                    <input type="date" name="tglpengaduan" id="tanggal" class="form-control" required>
                     <label for="lampiran" class="form-text mt-2 text-secondary">Upload lampiran</label>
                     <input type="file" name="lampiran" id="lampiran" class="form-control" required>
                   </div>
