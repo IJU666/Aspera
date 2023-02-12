@@ -26,7 +26,7 @@
                 </div>
             </form>
             <div class="rounded-3 mt-4 py-3 shadow shadow-md" style="background-color: #f3f3f3;">
-                <table class="table table-striped">
+                <table class="table table-striped" style="overflow: hidden">
                     <thead>
                       <tr class="">
                         <th scope="col">No</th>

@@ -38,8 +38,8 @@
                       <tr class="">
                         <th scope="col">No</th>
                         <th scope="col">Nama</th>
-                        <th scope="col">Jenis Laporan</th>
-                        <th scope="col">Isi Laporan</th>
+                        <th scope="col">NIK</th>
+                        <th scope="col">Tanggal Lahir</th>
                         <th scope="col">Alamat</th>
                         <th scope="col">No Telp</th>
                         <th scope="col" colspan="2" class="text-center">Aksi</th>
@@ -54,7 +54,7 @@
                         <td>Jalan pochinok duwar</td>
                         <td>08986283764</td>
                         <td class="col-1">
-                            <button class="btn btn-primary col-9" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                            <button class="btn btn-primary col-9" type="button" data-bs-toggle="offcanvas" data-bs-target="#pengguna" aria-controls="offcanvasScrolling">
                                 <i class="bi bi-pencil-square"></i>
                               </button>
                         </td>
@@ -69,7 +69,7 @@
                         <td>@fat</td>
                         <td>cinta sementara, epep selamanya</td>
                         <td>08238623223</td>
-                        <td class="col-1"> <button class="btn btn-primary col-9" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                        <td class="col-1"> <button class="btn btn-primary col-9" type="button" data-bs-toggle="offcanvas" data-bs-target="#pengguna" aria-controls="offcanvasScrolling">
                             <i class="bi bi-pencil-square"></i>
                           </button></td>
                         <td class="col-1"><a href="" class="btn btn-danger col-9"><i class="bi bi-trash3"></i></a></td>
@@ -80,7 +80,7 @@
                         <td>@twitter</td>
                         <td>epep selamanya</td>
                         <td>08238623223</td>
-                        <td class="col-1"> <button class="btn btn-primary col-9" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                        <td class="col-1"> <button class="btn btn-primary col-9" type="button" data-bs-toggle="offcanvas" data-bs-target="#pengguna" aria-controls="offcanvasScrolling">
                             <i class="bi bi-pencil-square"></i>
                           </button></td>
                         <td class="col-1"><a href="" class="btn btn-danger col-9"><i class="bi bi-trash3"></i></a></td>
@@ -92,7 +92,7 @@
     </section>
 </div>
 
-@include('admin.offcanvas')
+@include('admin.offcanvas-pengguna')
 
             <footer class="">
 
