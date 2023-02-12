@@ -5,7 +5,7 @@
         <div class="modal-body">
             <div>
             <img src="img/logo.png" alt="" class="img-fluid m-2" width="40px">
-            <small class="float-end mt-3">Belum mempunyai akun? <a href="">Daftar</a> </small>
+            <small class="float-end mt-3">Belum mempunyai akun? <a href="/daftar">Daftar</a> </small>
             </div>
             <div class="mt-5">
                 <h4 class="fw-bold text-center">Selamat Datang</h4>

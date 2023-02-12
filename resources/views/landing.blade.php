@@ -37,7 +37,7 @@
           <div class="form-check d-inline col-lg-5 ms-2 p-2 justify-content-center rounded-2" style="background-color: #F5F5F5;">
             <input class="form-check-input mx-auto" type="radio" name="aspirasi" id="exampleRadios2" value="option2">
             <label class="form-check-label ms-1" for="exampleRadios2">
-              Aspirasi 
+              Aspirasi
             </label>
           </div>
         </div>
@@ -56,6 +56,7 @@
                     <input type="date" name="tglpengaduan" id="tanggal" class="form-control" required>
                     <label for="lampiran" class="form-text mt-2 text-secondary">Upload lampiran</label>
                     <input type="file" name="lampiran" id="lampiran" class="form-control" required>
+                    <div class="form-text text-end">Format jpg, jpeg dan png*</div>
                   </div>
                 </div>
                 <div class="col-lg-4 mt-4 border mx-auto">

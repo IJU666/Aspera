@@ -21,6 +21,20 @@ Route::get('/daftar', function () {
     return view('daftar');
 });
 
-Route::get('/admin', function () {
-    return view('admin');
+Route::get('/admin-pengaduan', function () {
+    return view('admin.pengaduan', [
+        "title" => "Pengaduan"
+    ]);
+});
+
+Route::get('/admin-pengguna', function () {
+    return view('admin.pengguna', [
+        "title" => "Pengguna"
+    ]);
+});
+
+Route::get('/petugas-pengaduan', function () {
+    return view('petugas.Pengaduan', [
+        "title" => "Pengaduan"
+    ]);
 });

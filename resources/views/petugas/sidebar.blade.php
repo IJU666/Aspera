@@ -28,14 +28,6 @@
                     <span>Data Pengaduan</span>
                 </a>
             </li>
-
-            <li
-                class="sidebar-item {{ ($title === "Pengguna") ? 'active' : ''  }} ">
-                <a href="/admin-pengguna" class='sidebar-link'>
-                    <i class="bi bi-person-badge-fill"></i>
-                    <span>Data Pengguna</span>
-                </a>
-            </li>
         </ul>
         <ul class="menu float-bottom">
             <li class="sidebar-item">

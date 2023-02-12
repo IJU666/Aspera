@@ -3,7 +3,7 @@
 <div class="card mb-3 col-lg-10 mx-auto mt-3 " >
   <div class="row g-0">
     <div class="col-md-4">
-      <img src="img/daftar.png" class="img-fluid rounded-start" alt="..." style="height: 102vh;">
+      <img src="img/daftar.png" class="img-fluid rounded-start" alt="..." style="height: 105vh;">
     </div>
     <div class="col-md-8">
       <div class="card-body">
@@ -82,12 +82,18 @@
                                 <label for="password" class="form-text">Ulang Kata Sandi</label>
                                 <input type="password" name="password" id="password" class="form-control" placeholder="Ulang Kata Sandi" required>
                             </div>
+                            <div class="form-check ms-3 mt-2">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  Data yang dimasukan sudah sesuai dengan data diri
+                                </label>
+                              </div>
                             <button value="submit" name="submit" class="col-lg-5 mx-auto btn btn-primary mt-3">Buat Akun</button>
                         </div>
                     </div>
                 </form>
             </div>
-            <p class="mt-2 text-center fw-semibold">Sudah mempunyai akun?<a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="mx-1 text-decoration-none">Masuk</a></p>
+            <p class=" text-center fw-semibold">Sudah mempunyai akun?<a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" class="mx-1 text-decoration-none">Masuk</a></p>
             @include('layout.masuk')
         </div>
       </div>
