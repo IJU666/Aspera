@@ -31,7 +31,7 @@
         </ul>
         <ul class="menu float-bottom">
             <li class="sidebar-item">
-                <a href="index.html" class='sidebar-link'>
+                <a href="/" class='sidebar-link' onclick="return confirm('Yakin untuk meninggalkan halaman?');">
                     <i class="bi bi-door-open-fill"></i>
                     <span>Keluar</span>
                 </a>
